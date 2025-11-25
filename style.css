@@ -11,6 +11,17 @@ html, body {
   height: 100%;
 }
 
+a {
+  color: inherit;         /* 부모의 폰트 컬러 그대로 사용 */
+  text-decoration: none;  /* 밑줄 제거 */
+}
+
+a:hover {
+  opacity: 0.6;           /* 살짝 투명하게 */
+  transition: 0.3s;
+}
+
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
     Arial, sans-serif;
@@ -231,6 +242,10 @@ body {
   text-align: right;
 }
 
+.work-meta.align-center {
+  text-align: center;
+}
+
 .work-title {
   font-weight: 600;
 }
@@ -377,4 +392,3 @@ body {
     gap: 10px;
   }
 }
-
